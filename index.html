@@ -3,29 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Category Display</title>
+    <title>Babu Natarajan Certification</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="container">
-        <h1>Category Display</h1>
+        <h1>My Certification</h1>
         <div class="category-selector">
-            <button onclick="filterCategory('Category1')">Category 1</button>
-            <button onclick="filterCategory('Category2')">Category 2</button>
+            <button onclick="filterCategory('Category1')" class="btn">Programming language And development
+            </button>
+            <button onclick="filterCategory('Category2')">Core achievement</button>
            
         </div>
         <div class="content-display">
             <div class="category-content" data-category="Category1">
-                <img src="images/category1.jpg" alt="Category 1 Image">
-                <p>Content for Category 1</p>
-                <img src="images/category1.jpg" alt="Category 1 Image">
-                <p>Content for Category 1</p>
+              <h1><p class="com">Web development bootcamp</p></h1>
+              <img src="web.png" alt="Category 1 Image" class="center-image">
+
+              <h1><p class="com">Java Programming</p></h1>
+              <img src="java.png" alt="Category 1 Image" class="center-image">
+              
+              <h1><p class="com">online Web development Internship</p></h1>
+              <img src="intern.png" alt="Category 1 Image" class="center-image">
             </div>
             <div class="category-content" data-category="Category2">
-                <img src="images/category2.jpg" alt="Category 2 Image">
-                <p>Content for Category 2</p>
+                <h1><p class="com">Sustainable Power Generation Systems</p></h1>
+              <img src="sub.png" alt="Category 2 Image" class="center-image">
+                <h1><p class="com">Internet of Things</p></h1>
+              <img src="iot.png" alt="Category 2 Image" class="center-image">
+             
             </div>
-        </div>
+          </div>
     </div>
     <script src="index.js"></script>
 </body>
