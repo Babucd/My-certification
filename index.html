@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Display</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Category Display</h1>
+        <div class="category-selector">
+            <button onclick="filterCategory('Category1')">Category 1</button>
+            <button onclick="filterCategory('Category2')">Category 2</button>
+           
+        </div>
+        <div class="content-display">
+            <div class="category-content" data-category="Category1">
+                <img src="images/category1.jpg" alt="Category 1 Image">
+                <p>Content for Category 1</p>
+                <img src="images/category1.jpg" alt="Category 1 Image">
+                <p>Content for Category 1</p>
+            </div>
+            <div class="category-content" data-category="Category2">
+                <img src="images/category2.jpg" alt="Category 2 Image">
+                <p>Content for Category 2</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
